@@ -1,7 +1,13 @@
+@font-face {
+    font-family: "SVN-Gilroy Medium";
+    src: local("SVN-Gilroy Medium"), url("./assets/fonts/SVN-Gilroy Medium.otf") format("truetype");
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "SVN-Gilroy Medium";
 }
 
 body {
@@ -11,4 +17,9 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.app {
+    width: 80%;
+    margin: auto;
 }

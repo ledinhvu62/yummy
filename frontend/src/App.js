@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+
+import '../node_modules/boxicons/css/boxicons.min.css'
 
 const App = () => {
     return (
-        <div>Yummy</div>
+        <div className='app'>
+            <Navbar/>
+        </div>
     )
 }
 
