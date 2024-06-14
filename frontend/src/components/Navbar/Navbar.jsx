@@ -11,8 +11,8 @@ const Navbar = () => {
             <img src={logo} alt='' className='logo' />
             <ul className="navbar-menu">
                 <li onClick={() => setMenu('home')} className={menu === 'home' ? 'active' : ''}>Trang chủ</li>
-                <li onClick={() => setMenu('deal')} className={menu === 'deal' ? 'active' : ''}>Deal hôm nay</li>
                 <li onClick={() => setMenu('menu')} className={menu === 'menu' ? 'active' : ''}>Món ăn</li>
+                <li onClick={() => setMenu('mobile')} className={menu === 'mobile' ? 'active' : ''}>Mobile app</li>
                 <li onClick={() => setMenu('contact')} className={menu === 'contact' ? 'active' : ''}>Liên hệ</li>
             </ul>
             <div className="navbar-right">
