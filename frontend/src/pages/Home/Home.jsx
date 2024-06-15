@@ -21,6 +21,7 @@ const Home = () => {
                         if (category === 'all' || category === item.categorySlug) {
                             return <FoodCard key={item.id} name={item.name} price={item.price} description={item.description} image={item.image} slug={item.slug} />
                         }
+                        else return <></>
                     })}
                 </div>
             </div>

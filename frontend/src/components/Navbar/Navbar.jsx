@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 
-const Navbar = () => {
+const Navbar = ({ setShowLogin }) => {
 
     const [menu, setMenu] = useState('home')
 
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <div className="dot"></div>
                 </div>
                 <div className="navbar-right-item">
-                    <button>Đăng nhập</button>
+                    <button onClick={() => setShowLogin(true)}>Đăng nhập</button>
                 </div>
             </div>
         </div>
